@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(#8b9da9, #fff6e4);
+    padding: 0;
+}
+
+.calculator {
+    width: 320px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calculator__display {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 2.5em;
+    text-align: right;
+    border-bottom: 1px solid #555;
+}
+
+.calculator__functions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex: 1 1 25%;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    outline: none;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+.btn--large {
+    flex: 1 1 50%;
+}
+
+.btn--opaque {
+    background-color: #ddd;
+}
