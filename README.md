@@ -8,9 +8,10 @@ Welcome to the **My Flask App** repository! This project demonstrates a simple P
 
 - **Flask Application**: A basic web service built with the Flask framework.
 - **CI/CD Pipeline**: Configured with GitHub Actions for continuous integration and deployment.
+- **Calculator**: A functional calculator application designed with HTML and CSS for a simple, user-friendly interface.
 - **Automated Testing**: Uses `pytest` to run tests and ensure code reliability.
 
 ## Thank You
 
-Thank you for checking out this project! Feel free to explore, contribute, or provide feedback. Your support is greatly appreciated.
+Thank you for checking out this project! Feel free to explore, and provide feedback. Your support is greatly appreciated.
 
